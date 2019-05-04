@@ -1,6 +1,6 @@
 ﻿# VPSPACK-SERVER-V2.0
 
-![Fuxion logo](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPSPACK-SERVER-V2.0/master/VPSPACK_SERVER.png)
+![logo](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPSPACK-SERVER-V2.0/master/VPSPACK_SERVER.png)
 
 Manager Script
 
