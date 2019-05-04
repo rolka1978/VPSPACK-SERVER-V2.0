@@ -1,5 +1,7 @@
 ﻿# VPSPACK-SERVER V2.0
 
+![Fuxion logo](https://github.com/FluxionNetwork/fluxion/raw/master/logos/logo.jpg)
+
 Manager Script
 
 1 • RECOMENDADO DEBIAN Y UBUNTU. ALGUNOS DE ELLOS TAMBIÉN PUEDEN FUNCIONAR CON CENTOS.
