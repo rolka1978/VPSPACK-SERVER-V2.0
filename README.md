@@ -2,7 +2,7 @@
 
 ![logo](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPSPACK-SERVER-V2.0/master/VPSPACK_SERVER.png)
 
-Manager Script
+**Manager Script**
 
 1 • RECOMENDADO DEBIAN Y UBUNTU. ALGUNOS DE ELLOS TAMBIÉN PUEDEN FUNCIONAR CON CENTOS.
 
@@ -10,13 +10,18 @@ Manager Script
 
 apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPSPACK-SERVER-V2.0/master/instalarold && bash instalarold
 
-================================================================================
+```
+* SIN MINERIA! 
+* SIN KEYS! 
+* VERSION GRATUITA 
+* SIN VIRUS TROJANO (BOTNET) 
+* ARCHIVOS LIBERADOS (DECENCRIPTADOS)
+```
 
-*SIN MINERIA! *SIN KEYS! *VERSION GRATUITA *SIN VIRUS TROJANO (BOTNET) *ARCHIVOS LIBERADOS (DECENCRIPTADOS)
-
-================================================================================
-
+```
 ☆ https://t.me/admmanagerfree ☆
-=================================================
 
+☆ https://github.com/AAAAAEXQOSyIpN2JZ0ehUQ ☆
+```
 
+**By: [ FULL SCRIPTS ⃘⃤꙰✰ ] VPS**
