@@ -14,7 +14,7 @@ mkdir /etc/VpsPackdir 2>/dev/null
 mkdir /etc/VpsPackdir/limite 2>/dev/null
 mkdir /etc/VpsPackdir/senha 2>/dev/null
 
-wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPSPACK-SERVER-V2.0/master/vpspack.tgz > /dev/null 2>&1
+wget https://raw.githubusercontent.com/rolka1978/VPSPACK-SERVER-V2.0/master/vpspack.tgz > /dev/null 2>&1
 tar xvfz /root/vpspack.tgz > /dev/null 2>&1
 rm -rf /root/vpspack.tgz > /dev/null 2>&1
 cp -a /root/vpspack/. /bin/ > /dev/null 2>&1
