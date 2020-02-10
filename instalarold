@@ -1,0 +1,41 @@
+﻿#!/bin/bash
+rm -rf $HOME/instalarold
+cd
+if [ $(id -u) != 0 ]
+then
+echo "Ismeskite scenarijaus root"
+exit
+fi
+echo -e "\033[0;34m ===================================\033[0m"
+echo -e "\033[1;30m IDIEGIMAS VPSPACK-SERVER V2.0!\033[0m"
+echo -e "\033[0;34m ===================================\033[0m"
+echo -e "\033[1;33m Palaukite...\033[1;32m"
+mkdir /etc/VpsPackdir 2>/dev/null
+mkdir /etc/VpsPackdir/limite 2>/dev/null
+mkdir /etc/VpsPackdir/senha 2>/dev/null
+
+wget https://raw.githubusercontent.com/rolka1978/VPSPACK-SERVER-V2.0/master/vpspack.tgz > /dev/null 2>&1
+tar xvfz /root/vpspack.tgz > /dev/null 2>&1
+rm -rf /root/vpspack.tgz > /dev/null 2>&1
+cp -a /root/vpspack/. /bin/ > /dev/null 2>&1
+rm -rf /root/vpspack > /dev/null 2>&1
+chmod +x /bin/limite
+chmod +x /bin/criarusuario
+chmod +x /bin/deletarusuario
+chmod +x /bin/redefinirusuario
+chmod +x /bin/vps
+chmod +x /bin/speedtest.py
+
+clear
+echo -e "\033[0;34m =============================================================\033[0m"
+echo -e "\033[1;30m VPSPACK-SERVER V2.0!\033[0m"
+echo -e "\033[0;34m =============================================================\033[0m"
+echo -e "\033[1;32m Diegimas baigtas\n\033[1;30m Execute vps:"
+echo -e "\033[0;34m =============================================================\033[0m"
+echo -e "\033[1;31m • \033[1;37mvps\033[1;36m Administravimo parinkciu meniu\033[01;37m"
+echo -e "\033[1;31m • \033[1;37msukurti vartotoja\033[1;33m Sukurti vartotoja, kuriam uzdarymas ir rysio apribojimas\033[01;37m"
+echo -e "\033[1;31m • \033[1;37mistrinti vartotoja\033[1;33m Istrinti vartotojo atsijungima\033[01;37m"
+echo -e "\033[1;31m • \033[1;37mapibrezti vartotoja\033[1;33m Redaguoti vartotoja\033[01;37m"
+echo -e "\033[1;31m • \033[1;37mlimitas\033[1;33m Vienalaikiu jungciu riba\033[01;37m"
+echo -e "\033[0;34m =============================================================\033[0m"
+rm -rf $HOME/instalarold
