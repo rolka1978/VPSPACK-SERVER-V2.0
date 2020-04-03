@@ -3,7 +3,7 @@ rm -rf $HOME/instalarold
 cd
 if [ $(id -u) != 0 ]
 then
-echo "Ismeskite scenarijaus root"
+echo "Ismeskite scripta root"
 exit
 fi
 echo -e "\033[0;34m ===================================\033[0m"
